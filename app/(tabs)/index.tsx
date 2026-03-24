@@ -11,6 +11,7 @@ export default function App() {
   const stopwatch = () => {
     const [seconds, setSeconds] = useState(0);
     const [isActive, setIsActive] = useState(false);
+    // LEvando uma surra pra aprenderr a mexer no git apnas um comentario
 
     useEffect(() => {  
       let interval = null;
